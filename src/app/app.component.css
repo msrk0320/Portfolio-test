@@ -1,18 +1,55 @@
-.wrapper{
-    display: flex;
-    flex-direction: column;            
-    height: 100vh;
-    overflow: hidden;
+  .wrapper {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+      background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+      background-position: center;
   }
-  .header{
-    flex: 0 0 auto;  
-    background: #aaa;
+  
+  .header {
+      flex: 0 0 auto;
+      background: #aaa;
   }
-  .content{
-    flex: 1 1 auto;     
-    overflow-y: auto;     
+  
+  .content {
+      flex: 1 1 auto;
+      overflow-y: auto;
   }
-  .footer{
-    flex: 0 0 auto;  
-    background: #aaa;
+  
+  .footer {
+      flex: 0 0 auto;
+      background: #aaa;
+  }
+  
+  .navbar {
+      backdrop-filter: blur(4px) saturate(100%);
+      -webkit-backdrop-filter: blur(4px) saturate(100%);
+      background-color: rgba(17, 25, 40, 0);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+  
+  .mat-tab-link {
+      font-size: x-large;
+  }
+  
+  .active-link {
+      color: #a8dadc;
+  }
+  
+  .topImage {
+      height: 10px;
+  }
+  
+  .mat-tab-nav-bar {
+      border-bottom: none;
+  }
+  
+  .content {
+      backdrop-filter: blur(4px) saturate(100%);
+      -webkit-backdrop-filter: blur(4px) saturate(100%);
+      background-color: rgba(17, 25, 40, 0);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.125);
   }

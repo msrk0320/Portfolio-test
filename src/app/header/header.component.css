@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.navbar {
+    flex: 0 0 auto;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.mat-tab-nav-bar {
+    border-bottom: none;
+}
+
+.mat-tab-link {
+    font-size: x-large;
+}
