@@ -1,0 +1,11 @@
+
+.mat-progress-bar
+{
+    height: 10px;
+    width: 100%;
+    position: fixed;
+}
+
+.pages{
+height:200vh;
+}

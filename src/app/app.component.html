@@ -1,12 +1,13 @@
-<mat-tab-group>
-    <mat-tab label="Home">
-        Content
-    </mat-tab>
-    <mat-tab label="Works">
-
-    </mat-tab>
-    <mat-tab label="About">
-
-    </mat-tab>
-  </mat-tab-group>
-<router-outlet></router-outlet>
+<div class="wrapper">
+<div class="navbar">
+<nav mat-tab-nav-bar mat-align-tabs="center" ngClass ="tabs">
+   <a mat-tab-link routerLink="home" routerLinkActive="active-link">Home</a>
+   <a mat-tab-link routerLink="works" routerLinkActive="active-link">Works</a>
+   <a mat-tab-link routerLink="about" routerLinkActive="active-link">About</a>
+</nav>
+</div>
+<div class="content">
+    
+    <router-outlet></router-outlet>
+</div>
+</div>
